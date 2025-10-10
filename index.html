@@ -65,7 +65,10 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation</h1>
+          <h1 class="title is-1 publication-title">
+            <img src="./assets/logo.png" alt="Jasmine Logo" style="height:1em; vertical-align:baseline; margin-right: 0.5rem;"/>
+            Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation
+          </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://wangjiyuan9.github.io/" target="_blank" rel="noopener noreferrer">
@@ -112,7 +115,7 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2503.15905" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf" style="color: orangered"></i>
                   </span>
@@ -137,12 +140,19 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://wangjiyuan9.github.io/jasmine/" target="_blank" rel="noopener noreferrer"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href="https://www.youtube.com/watch?v=M314fHXVPOo" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      &#127752;
+                      <i class="fab fa-youtube" style="color: red"></i>
                   </span>
-                  <span>Project Page</span>
+                  <span>YouTube Video</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.bilibili.com/video/BV1x8xszFEos" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-video" style="color: #00A1D6"></i>
+                  </span>
+                  <span>BiliBili Video</span>
                 </a>
               </span>
             </div>
@@ -156,7 +166,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img id="teaser" width="100%" src="./images/nb.png" alt="Teaser image for Jasmine"/>
+      <img id="teaser" width="100%" src="./assets/taser.png" alt="Teaser image for Jasmine"/>
       <p class="subtitle has-text-left" style="margin-top: 1rem;">
         <b>Without any high-precision depth supervision</b>, Jasmine achieves remarkably detailed and accurate depth estimation results through zero-shot generalization across diverse scenarios.
       </p>
@@ -194,8 +204,7 @@
         <h2 class="title is-3">Gallery</h2>
          <div class="content has-text-justified">
             <p>
-                The gallery below presents several qualitative comparisons of <span class="methodname">Jasmine</span> with previous state-of-the-art methods. 
-                Use the slider to reveal details. The top slider compares our method with the input image, while the bottom slider compares it with a competing method.
+                The gallery below presents several qualitative comparisons of <span class="methodname">Jasmine</span> with previous state-of-the-art methods.
             </p>
          </div>
       </div>
@@ -205,86 +214,8 @@
 
 <section class="hero is-light is-small mt-4">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel-depth" class="carousel results-carousel">
-
-        <div class="twoitem">
-          <div class="twentytwenty-container twentytwenty-container-top">
-            <div class="cmpcontent">
-              <img src="./images/gallery/kitti_input.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/kitti_ours.png">
-            </div>
-          </div>
-          <div class="twentytwenty-container twentytwenty-container-bottom">
-            <div class="cmpcontent">
-              <img src="./images/gallery/kitti_monovit.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/kitti_ours.png">
-            </div>
-          </div>
-        </div>
-
-        <div class="twoitem">
-          <div class="twentytwenty-container twentytwenty-container-top">
-            <div class="cmpcontent">
-              <img src="./images/gallery/drivingstereo_input.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/drivingstereo_ours.png">
-            </div>
-          </div>
-          <div class="twentytwenty-container twentytwenty-container-bottom">
-            <div class="cmpcontent">
-              <img src="./images/gallery/drivingstereo_monovit.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/drivingstereo_ours.png">
-            </div>
-          </div>
-        </div>
-
-        <div class="twoitem">
-          <div class="twentytwenty-container twentytwenty-container-top">
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape1_input.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape1_ours.png">
-            </div>
-          </div>
-          <div class="twentytwenty-container twentytwenty-container-bottom">
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape1_monovifi.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape1_ours.png">
-            </div>
-          </div>
-        </div>
-        
-        <div class="twoitem">
-          <div class="twentytwenty-container twentytwenty-container-top">
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape2_input.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape2_ours.png">
-            </div>
-          </div>
-          <div class="twentytwenty-container twentytwenty-container-bottom">
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape2_monovifi.png">
-            </div>
-            <div class="cmpcontent">
-              <img src="./images/gallery/cityscape2_ours.png">
-            </div>
-          </div>
-        </div>
-
-      </div>
+    <div class="container is-max-desktop">
+      <img id="main-gallery" width="100%" src="./assets/main.png" alt="Jasmine Qualitative Results"/>
     </div>
   </div>
 </section>
@@ -303,7 +234,7 @@
             <span class="methodname">Jasmine</span> is the first framework to successfully finetune a pre-trained Stable Diffusion model using only self-supervised signals from video sequences. The framework consists of two key components: <b>Mix-batch Image Reconstruction (MIR)</b> and <b>Scale-Shift GRU (SSG)</b>. MIR preserves SD's powerful visual priors by training the model on a surrogate image reconstruction task, preventing the priors from being corrupted by noisy reprojection losses. SSG bridges the distributional gap between the scale-shift-invariant depth from SD and the scale-invariant depth required by self-supervised methods, while also filtering noisy gradients to protect fine details.
           </p>
 
-          <img id="method_train" width="100%" src="./images/pipeline.png" alt="Jasmine adaptation pipeline"/>
+          <img id="method_train" width="100%" src="./assets/pipeline.png" alt="Jasmine adaptation pipeline"/>
 
           <h3 class="title has-text-centered mt-5">
             Quantitative Zero-shot Depth Comparison
@@ -311,7 +242,7 @@
           <p>
             Despite being trained with zero ground-truth depth labels, <span class="methodname">Jasmine</span> achieves state-of-the-art performance on the KITTI benchmark among all self-supervised methods. It also demonstrates remarkable zero-shot generalization capabilities, outperforming both self-supervised and fully-supervised baselines on multiple unseen datasets like CityScapes and DrivingStereo, even under adverse weather conditions.
           </p>
-          <img id="comparison" width="100%" src="./images/kitti_results.png" alt="Quantitative results on the KITTI dataset"/>
+          <img id="comparison" width="100%" src="./assets/kitti.png" alt="Quantitative results on the KITTI dataset"/>
           <p class="mt-5">
             Refer to the PDF paper linked above for more details on qualitative, quantitative, and ablation studies.
           </p>
@@ -321,43 +252,13 @@
     </div>
 </section>
 
-<script>
-  $(window).on('load', function() {
-    bulmaCarousel.attach('#results-carousel-depth', {
-      slidesToScroll: 1,
-      slidesToShow: 3,
-      loop: true,
-      autoplay: true,
-      autoplaySpeed: 5000,
-    });
-
-    // For depth estimation gallery
-    $("#results-carousel-depth .twentytwenty-container-top").twentytwenty({
-      before_label: 'Input',
-      after_label: 'Ours',
-      default_offset_pct: 0.75,
-    });
-
-    $("#results-carousel-depth .twentytwenty-container-bottom").twentytwenty({
-      before_label: 'Competitor',
-      after_label: 'Ours',
-      default_offset_pct: 0.5,
-    });
-
-    $('.results-carousel').css({
-      'max-height': '2000px',
-      'visibility': 'visible'
-    });
-  });
-</script>
-
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">Citation</h2>
-    <pre><code>@inproceedings{wang2025jasmine,
-  title={Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation},
+    <pre><code>@article{wang2025jasmine,
+  title={Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation},
   author={Wang, Jiyuan and Lin, Chunyu and Guan, Cheng and Nie, Lang and He, Jing and Li, Haodong and Liao, Kang and Zhao, Yao},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  journal={arXiv preprint arXiv:2503.15905},
   year={2025}
 }</code></pre>
   </div>

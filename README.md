@@ -1,5 +1,5 @@
 <div align="center">
-<h2>[NeurIPS 2025] Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation</h2>
+<h2><img src="assets/logo.png" alt="[NIPS 25]" style="height:1.5em; vertical-align:bottom;"/> Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation</h2>
 
 <a href='https://wangjiyuan9.github.io/' target='_blank'>Jiyuan Wang</a><sup>1</sup> • 
 <a href='https://scholar.google.com/citations?hl=zh-CN&user=t8xkhscAAAAJ' target='_blank'>Chunyu Lin</a><sup>1,†</sup> • 

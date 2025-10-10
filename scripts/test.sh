@@ -1,0 +1,1 @@
+ python trains.py --only_test --eval_split eigen --ug --link_mode first --data_path /data/raid-0/wangjiyuan.wjy/data --resume_from_checkpoint ./ckpt

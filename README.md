@@ -152,10 +152,10 @@ For detailed quantitative and qualitative results, please refer to our [paper](h
 If you find our work helpful, please consider citing:
 
 ```bibtex
-@inproceedings{wang2025jasmine,
-  title={Jasmine: Harnessing Diffusion Prior for Self-Supervised Depth Estimation},
+@article{wang2025jasmine,
+  title={Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation},
   author={Wang, Jiyuan and Lin, Chunyu and Guan, Cheng and Nie, Lang and He, Jing and Li, Haodong and Liao, Kang and Zhao, Yao},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  journal={arXiv preprint arXiv:2503.15905},
   year={2025}
 }
 ```

@@ -18,7 +18,7 @@
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2503.15905) 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://wangjiyuan9.github.io/jasmine/)
 [![Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/exander/Jasmine)
-[![Video](https://img.shields.io/badge/BiliBili-Video-00A1D6)](https://www.bilibili.com/video/BV1zYXdBXE2x)
+[![Video](https://img.shields.io/badge/BiliBili-Video-00A1D6)](https://www.bilibili.com/video/BV1x8xszFEos)
 [![Video](https://img.shields.io/badge/YouTube-Video-red)](https://www.youtube.com/watch?v=M314fHXVPOo)
 
 <div style="text-align:center">
